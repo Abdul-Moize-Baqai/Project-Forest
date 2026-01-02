@@ -2,6 +2,7 @@ import bpy
 import random
 from mathutils import Vector
 
+# Define materials for trunk and leaves i am only making the class to handle tree creation
 class Tree:
     def __init__(self, trunk_mat, leaf_mat):
         self.trunk = trunk_mat
